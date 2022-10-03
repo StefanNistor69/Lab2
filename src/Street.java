@@ -37,5 +37,11 @@ public class Street {
         this.City=City;
         this.Country_name=CountryName;
     }
+    public Street(){
+        this.StreetName=null;
+        this.Number=null;
+        this.City=null;
+        this.Country_name=null;
+    }
 
 }

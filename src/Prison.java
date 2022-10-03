@@ -6,9 +6,7 @@ public class Prison {
     private String Wings;
     private boolean Availability;
 
-    public Prison() {
 
-    }
 
     public void setPrisonName(String prisonName){
         this.PrisonName= prisonName;
@@ -53,10 +51,14 @@ public class Prison {
         this.Wings=Wings;
         this.Availability=Availability;
         this.Capacity=Capacity;
-
-
-
-
+    }
+    public Prison(){
+        this.PrisonName=null;
+        this.PrisonAddress=null;
+        this.BuiltDate=null;
+        this.Wings=null;
+        this.Availability=false;
+        this.Capacity=0;
     }
 
 

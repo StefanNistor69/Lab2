@@ -72,6 +72,17 @@ public class Administrator {
         this.Login_ID=Login_ID;
         this.password=password;
     }
+    public Administrator(){
+        this.Name = null;
+        this.Surname = null;
+        this.Age = 0;
+        this.Address=null;
+        this.Gender=null;
+        this.Salary=0;
+        this.Login_ID=null;
+        this.password=null;
+
+    }
 
 
 

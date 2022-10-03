@@ -68,4 +68,14 @@ public class Guards {
         this.Id= Id;
         this.Wing=Wing;
     }
+    public Guards(){
+        this.Name = null;
+        this.Surname = null;
+        this.Age = 0;
+        this.Address=null;
+        this.Gender=null;
+        this.Salary=0;
+        this.Id= null;
+        this.Wing=null;
+    }
 }

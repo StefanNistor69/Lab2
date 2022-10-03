@@ -72,5 +72,14 @@ public class Visitor {
         this.VisitReason = VisitReason;
         this.Id = Id;
     }
+    public Visitor(){
+        this.Name = null;
+        this.Surname = null;
+        this.Age = 0;
+        this.VisitTime = 0;
+        this.Gender = null;
+        this.VisitReason = null;
+        this.Id = null;
+    }
 
 }

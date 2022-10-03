@@ -85,4 +85,14 @@ public class Supervisor {
         this.Record = Record;
 
     }
+    public Supervisor(){
+        this.Name = null;
+        this.Surname = null;
+        this.Age = 0;
+        this.Address = null;
+        this.Gender = null;
+        this.Block = null;
+        this.Id = null;
+        this.Record = null;
+    }
 }

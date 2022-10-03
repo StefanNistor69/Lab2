@@ -84,4 +84,14 @@ public class Prisoner {
 
 
     }
+    public Prisoner(){
+        this.Name = null;
+        this.Surname = null;
+        this.Age = 0;
+        this.Address = null;
+        this.Gender = null;
+        this.Sentence = null;
+        this.SentencePeriod = null;
+        this.Id = null;
+    }
 }
